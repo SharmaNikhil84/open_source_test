@@ -6,6 +6,7 @@ function App() {
   
   return (
      <>
+     <h1>Simple Heading</h1>
       {
         videos.map(video=><Video
           id={video.id}
