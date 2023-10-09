@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+div{
+    /* background-color: black; */
+    display:grid;
+    /* grid-template-columns: 10rem 10rem 10rem; */
+    grid-template-areas: "pic pic pic"
+                        "t t t"
+                        "tt tt tt";
+    justify-content: center;
+    /* align-content: center; */
+    /* align-self: center; */
+}
+img{
+    grid-area: pic;
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 1px;
+}
+h5{
+    grid-area: t;
+    text-align: center;
+    /* display: inline  */
+}
+h6{
+    grid-area: tt;
+    text-align: center;
+}
